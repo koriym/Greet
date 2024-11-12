@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f4919d088b89484326667568a185aab1",
+    "content-hash": "5e87030761214c715960c620d22251d1",
     "packages": [
         {
             "name": "aura/cli",
@@ -4383,6 +4383,59 @@
             "time": "2024-06-09T11:43:57+00:00"
         },
         {
+            "name": "bear/cli",
+            "version": "dev-init",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bearsunday/BEAR.Cli.git",
+                "reference": "69acb0c1301a5a17d6dbe965393ec2bcdcde19a7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bearsunday/BEAR.Cli/zipball/69acb0c1301a5a17d6dbe965393ec2bcdcde19a7",
+                "reference": "69acb0c1301a5a17d6dbe965393ec2bcdcde19a7",
+                "shasum": ""
+            },
+            "require": {
+                "bear/package": "^1.10",
+                "bear/resource": "^1.23",
+                "php": "^8.2"
+            },
+            "require-dev": {
+                "bamarni/composer-bin-plugin": "^1.8",
+                "phpunit/phpunit": "^9.6.21"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "bamarni-bin": {
+                    "bin-links": true,
+                    "forward-command": false
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "BEAR\\Cli\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Akihito Koriyama",
+                    "email": "akihito.koriyama@gmail.com"
+                }
+            ],
+            "description": "Generate CLI commands from BEAR.Sunday resource methods",
+            "support": {
+                "issues": "https://github.com/bearsunday/BEAR.Cli/issues",
+                "source": "https://github.com/bearsunday/BEAR.Cli/tree/init"
+            },
+            "time": "2024-11-12T05:39:16+00:00"
+        },
+        {
             "name": "bear/devtools",
             "version": "1.0.4",
             "source": {
@@ -7145,6 +7198,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "bear/cli": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": false,

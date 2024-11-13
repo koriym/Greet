@@ -31,10 +31,8 @@
     },
     "scripts": {
         "post-install-cmd": [
-            "@setup",
             "@composer bin all install --ansi"
         ],
-        "setup": "php bin/setup.php",
         "compile": "./vendor/bin/bear.compile 'MyVendor\\HelloCli' prod-app ./",
         "doc": "./vendor/bin/apidoc",
         "test": "./vendor/bin/phpunit",
@@ -68,7 +66,8 @@
         ],
         "serve": "COMPOSER_PROCESS_TIMEOUT=0 php -dzend_extension=xdebug.so -S 127.0.0.1:8080 -t public",
         "app": "php bin/app.php",
-        "page": "php bin/page.php"
+        "page": "php bin/page.php",
+        "cli": "./vendor/bin/bear-cli-gen 'MyVendor\\HelloCli'"
     },
     "scripts-descriptions": {
         "setup": "Setup the project",

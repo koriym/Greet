@@ -14,7 +14,7 @@ class Index extends ResourceObject
     public $body;
 
     #[Cli(
-        name: 'hello',
+        name: 'greet',
         description: 'Hello World',
         output: 'greeting'
     )]

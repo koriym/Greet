@@ -11,7 +11,7 @@
         "bear/sunday": "^1.6",
         "ray/aop": "^2.12",
         "ray/di": "^2.14",
-        "bear/cli": "init-dev"
+        "bear/cli": "formula-dev"
     },
     "require-dev": {
         "bamarni/composer-bin-plugin": "^1.4",

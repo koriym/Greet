@@ -119,12 +119,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/bearsunday/BEAR.Cli.git",
-                "reference": "6b3abba5dbfca95ae184f14e33fda78c2ba63df3"
+                "reference": "882216140d76e02643b3db67e33941d08fbb280a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bearsunday/BEAR.Cli/zipball/6b3abba5dbfca95ae184f14e33fda78c2ba63df3",
-                "reference": "6b3abba5dbfca95ae184f14e33fda78c2ba63df3",
+                "url": "https://api.github.com/repos/bearsunday/BEAR.Cli/zipball/882216140d76e02643b3db67e33941d08fbb280a",
+                "reference": "882216140d76e02643b3db67e33941d08fbb280a",
                 "shasum": ""
             },
             "require": {
@@ -162,12 +162,12 @@
                     "email": "akihito.koriyama@gmail.com"
                 }
             ],
-            "description": "Generate CLI commands from BEAR.Sunday resource methods",
+            "description": "Transform BEAR.Sunday resources into native CLI commands",
             "support": {
                 "issues": "https://github.com/bearsunday/BEAR.Cli/issues",
                 "source": "https://github.com/bearsunday/BEAR.Cli/tree/formula"
             },
-            "time": "2024-11-13T01:47:27+00:00"
+            "time": "2024-11-13T05:18:00+00:00"
         },
         {
             "name": "bear/dotenv",

@@ -119,12 +119,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/bearsunday/BEAR.Cli.git",
-                "reference": "882216140d76e02643b3db67e33941d08fbb280a"
+                "reference": "152c813e10619b12691a4f97cfe5a987d8e2a374"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bearsunday/BEAR.Cli/zipball/882216140d76e02643b3db67e33941d08fbb280a",
-                "reference": "882216140d76e02643b3db67e33941d08fbb280a",
+                "url": "https://api.github.com/repos/bearsunday/BEAR.Cli/zipball/152c813e10619b12691a4f97cfe5a987d8e2a374",
+                "reference": "152c813e10619b12691a4f97cfe5a987d8e2a374",
                 "shasum": ""
             },
             "require": {
@@ -167,7 +167,7 @@
                 "issues": "https://github.com/bearsunday/BEAR.Cli/issues",
                 "source": "https://github.com/bearsunday/BEAR.Cli/tree/formula"
             },
-            "time": "2024-11-13T05:18:00+00:00"
+            "time": "2024-11-13T10:27:01+00:00"
         },
         {
             "name": "bear/dotenv",

@@ -11,7 +11,7 @@
         "bear/sunday": "^1.6",
         "ray/aop": "^2.12",
         "ray/di": "^2.14",
-        "bear/cli": "formula-dev"
+        "bear/cli": "^0.1.1"
     },
     "require-dev": {
         "bear/api-doc": "^1.1",

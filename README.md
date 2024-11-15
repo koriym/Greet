@@ -1,4 +1,4 @@
-# MyVendor.HelloCli
+# Greet
 
 ## Installation
 
